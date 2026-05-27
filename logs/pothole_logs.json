@@ -1,0 +1,101 @@
+[
+    {
+        "timestamp": 1762539377.609348,
+        "datetime": "2025-11-07T23:46:17.609348",
+        "lat": 11.0055,
+        "lon": 76.9661,
+        "severity": "low (surface_crack)",
+        "confidence": 0.5321558117866516,
+        "num_unique_potholes": 7
+    },
+    {
+        "timestamp": 1762539890.8411174,
+        "datetime": "2025-11-07T23:54:50.841117",
+        "lat": 11.0055,
+        "lon": 76.9661,
+        "severity": "med (pit)",
+        "confidence": 0.7448847889900208,
+        "num_unique_potholes": 1
+    },
+    {
+        "timestamp": 1762539991.2100742,
+        "datetime": "2025-11-07T23:56:31.210074",
+        "lat": 11.0055,
+        "lon": 76.9661,
+        "severity": "low (surface_crack)",
+        "confidence": 0.737105131149292,
+        "num_unique_potholes": 7
+    },
+    {
+        "timestamp": 1762540029.6589139,
+        "datetime": "2025-11-07T23:57:09.658914",
+        "lat": 11.0055,
+        "lon": 76.9661,
+        "severity": "low (surface_crack)",
+        "confidence": 0.8802806735038757,
+        "num_unique_potholes": 9
+    },
+    {
+        "timestamp": 1762540163.6743987,
+        "datetime": "2025-11-07T23:59:23.674399",
+        "lat": 11.0055,
+        "lon": 76.9661,
+        "severity": "low (surface_crack)",
+        "confidence": 0.7334079146385193,
+        "num_unique_potholes": 5
+    },
+    {
+        "timestamp": 1762540239.9426117,
+        "datetime": "2025-11-08T00:00:39.942612",
+        "lat": 11.0055,
+        "lon": 76.9661,
+        "severity": "low (surface_crack)",
+        "confidence": 0.854454517364502,
+        "num_unique_potholes": 12
+    },
+    {
+        "timestamp": 1762540323.2656405,
+        "datetime": "2025-11-08T00:02:03.265640",
+        "lat": 11.0055,
+        "lon": 76.9661,
+        "severity": "low (surface_crack)",
+        "confidence": 0.8555592894554138,
+        "num_unique_potholes": 9
+    },
+    {
+        "timestamp": 1762541851.8961148,
+        "datetime": "2025-11-08T00:27:31.896115",
+        "lat": 11.0055,
+        "lon": 76.9661,
+        "severity": "low (surface_crack)",
+        "confidence": 0.9570385217666626,
+        "num_unique_potholes": 85
+    },
+    {
+        "timestamp": 1762541900.549502,
+        "datetime": "2025-11-08T00:28:20.549502",
+        "lat": 11.0055,
+        "lon": 76.9661,
+        "severity": "med (pit)",
+        "confidence": 0.9328758120536804,
+        "num_unique_potholes": 32
+    },
+    {
+        "timestamp": 1762582981.4483068,
+        "datetime": "2025-11-08T11:53:01.448307",
+        "lat": 11.0055,
+        "lon": 76.9661,
+        "severity": "low (surface_crack)",
+        "confidence": 0.7054769992828369,
+        "num_unique_potholes": 20
+    },
+    {
+        "timestamp": 1762585195.145956,
+        "datetime": "2025-11-08T12:29:55.145956",
+        "lat": 0.0,
+        "lon": 0.0,
+        "severity": "low (surface_crack)",
+        "confidence": 0.8327513337135315,
+        "num_unique_potholes": 64
+    }
+]

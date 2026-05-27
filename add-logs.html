@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head><title>Add Dummy Logs</title></head>
+<body>
+<script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-firestore-compat.js"></script>
+<script src="firebase-config.js">
+</script> 
+<script>
+
+const dummyLogs = [ 
+  {
+    "confidence": 0.82521526,
+    "datetime": "2025-11-07 16:43:37.158",
+    "lat": 10.96516,
+    "lng": 77.03966,
+    "num_unique_potholes": 1,
+    "severity": "low(surface_crack)",
+    "timestamp": 1762536397158449
+  },
+  {
+    "confidence": 0.95042659,
+    "datetime": "2025-11-07 16:48:37.158",
+    "lat": 10.94406,
+    "lng": 77.04791,
+    "num_unique_potholes": 1,
+    "severity": "low(surface_crack)",
+    "timestamp": 1762536397158480
+  },
+  {
+    "confidence": 0.9098295,
+    "datetime": "2025-11-07 16:39:37.158",
+    "lat": 10.94078,
+    "lng": 77.03362,
+    "num_unique_potholes": 3,
+    "severity": "med(pit)",
+    "timestamp": 1762536397158502
+  },
+  {
+    "confidence": 0.87892429,
+    "datetime": "2025-11-07 16:59:37.158",
+    "lat": 10.93706,
+    "lng": 77.06856,
+    "num_unique_potholes": 5,
+    "severity": "low(surface_crack)",
+    "timestamp": 1762536397158521
+  },
+  {
+    "confidence": 0.93614671,
+    "datetime": "2025-11-07 17:09:37.158",
+    "lat": 10.94218,
+    "lng": 77.05528,
+    "num_unique_potholes": 3,
+    "severity": "med(pit)",
+    "timestamp": 1762536397158540
+  },
+  {
+    "confidence": 0.91778376,
+    "datetime": "2025-11-07 16:55:37.158",
+    "lat": 10.93859,
+    "lng": 77.04368,
+    "num_unique_potholes": 4,
+    "severity": "med(pit)",
+    "timestamp": 1762536397158559
+  },
+  {
+    "confidence": 0.81738566,
+    "datetime": "2025-11-07 16:48:37.158",
+    "lat": 10.96548,
+    "lng": 77.04614,
+    "num_unique_potholes": 1,
+    "severity": "high(depression)",
+    "timestamp": 1762536397158582
+  },
+  {
+    "confidence": 0.80651244,
+    "datetime": "2025-11-07 16:50:37.158",
+    "lat": 10.95465,
+    "lng": 77.0595,
+    "num_unique_potholes": 1,
+    "severity": "low(surface_crack)",
+    "timestamp": 1762536397158601
+  },
+  {
+    "confidence": 0.8043973,
+    "datetime": "2025-11-07 16:55:37.158",
+    "lat": 10.93477,
+    "lng": 77.03835,
+    "num_unique_potholes": 2,
+    "severity": "high(depression)",
+    "timestamp": 1762536397158619
+  },
+  {
+    "confidence": 0.83491538,
+    "datetime": "2025-11-07 17:04:37.158",
+    "lat": 10.93664,
+    "lng": 77.0443,
+    "num_unique_potholes": 4,
+    "severity": "med(pit)",
+    "timestamp": 1762536397158637
+    }
+ ];
+
+dummyLogs.forEach(log => {
+  firebase.firestore().collection('pothole_logs').add(log)
+    .then(() => console.log('Added:', log.lat, log.lng))
+    .catch(err => console.error('Error:', err));
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+opencv-python==4.10.0.84
+ultralytics==8.3.0
+numpy==1.26.4
+geocoder==1.38.1
+torch==2.5.0  
+torchvision==0.20.0  
